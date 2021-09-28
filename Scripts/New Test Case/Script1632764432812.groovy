@@ -34,6 +34,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in  Katalon S
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in  Katalon Solution/input_Remember me_login-btn'))
 
+WebUI.takeScreenshotAsCheckpoint('visualtesting1')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Sign in  Katalon Solution/div_Incorrect email or password. Please try again'), 
     'Incorrect email or password. Please try again')
 
